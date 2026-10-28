@@ -1,11 +1,4 @@
-import os
-import sys
-
-current_dir = os.path.dirname(os.path.abspath(__file__))
-logic_dir = os.path.abspath(os.path.join(current_dir, "../../", "Core_Math_Algorithms/01_Matrices_and_Determinants"))
-sys.path.append(logic_dir)
-
-from matrix_operations import Matrix # type: ignore
+from matrix_operations import Matrix
 
 
 class Tensor:
