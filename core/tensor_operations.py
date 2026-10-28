@@ -1,4 +1,4 @@
-from matrix_operations import Matrix
+from .matrix_operations import Matrix
 
 
 class Tensor:
